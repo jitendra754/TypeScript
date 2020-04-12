@@ -6,3 +6,6 @@ console.log("Name: " + myName);
 console.log("First Score: " + score1);
 console.log("Second Score: " + score2);
 console.log("Sum Of Score: " + sum);
+var star = "1";
+var star1 = star;
+console.log(typeof (star1));
