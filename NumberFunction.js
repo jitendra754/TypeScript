@@ -3,10 +3,11 @@ function employee(id, name) {
     this.name = name;
 }
 var emp = new employee(123, "Smith");
-//emp.prototype.email="kk@gmail.com";
+employee.prototype.email = "kk@gmail.com";
 console.log("Employee id :" + emp.id);
 console.log("Employee name :" + emp.name);
-//console.log("Employee email :"+emp.email);
+console.log("Employee email :" + emp.email);
+console.log("Emp Object has email property : " + emp.hasOwnProperty("email"));
 // Exponential of Number
 var num = 1225.30;
 var num1 = num.toExponential();
